@@ -43,12 +43,18 @@ namespace DTO
             set { _diaChi = value; }
         }
 
-        public string _maLop;
+        private string _maLop;
         public string MaLop
         {
             get { return _maLop; }
             set { _maLop = value; }
         }
 
+        private string _email;
+        public string Email
+        {
+            get { return _email; }
+            set { _email = value; }
+        }
     }
 }
